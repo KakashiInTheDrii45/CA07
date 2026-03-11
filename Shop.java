@@ -40,11 +40,10 @@ public class Shop{
     public get(){}
     public get(){} 
 */
-    
-    toString(){
+    @override
+    public void toString(){
         String form = "%-20s %10s%n";
         System.out.println(form, name + numberOfVisitors);
 
     }
-    public void DisplayArray(){}
 } 
