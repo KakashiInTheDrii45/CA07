@@ -21,7 +21,7 @@ public class Shop{
         return numberOfShops;
 
      }
-     
+
 
     public void setVisitors(){
         Random rand = new Random();
@@ -41,6 +41,10 @@ public class Shop{
     public get(){} 
 */
     
-    toString(){}
-    Display(){}
+    toString(){
+        String form = "%-20s %10s%n";
+        System.out.println(form, name + numberOfVisitors);
+
+    }
+    public void DisplayArray(){}
 } 
