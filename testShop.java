@@ -17,10 +17,12 @@ public class testShop{
     }
 
     public static void DisplayArray(){
-        System.out.println();
+        String form = "%-15s %15s%n";
+        System.out.println(form, "Name" ,"Vistors");
         for(int i=0;i<Shop.getNumberOfShops(); i++){
-
+            System.out.print(i+1);
             Shop.toString();
+            
 
         }
         
