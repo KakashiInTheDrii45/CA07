@@ -12,7 +12,17 @@ public class Shop{
         
     }
     
-    
+    public int getVisitors(){
+
+    return vistors;
+
+    }
+     public getNumberOfShops(){
+        return numberOfShops;
+
+     }
+     
+
     public void setVisitors(){
         Random rand = new Random();
         this.visitors = rand.nextInt(100);
@@ -26,7 +36,7 @@ public class Shop{
     /* 
     public set(){}
     
-    public get(){}
+   
     public get(){}
     public get(){} 
 */
