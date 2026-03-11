@@ -7,7 +7,7 @@ public class Shop{
 
 
     Shop(){numberOfShops+=1;}
-    Shop(String name, int visitors, int numberOfShops){
+    Shop(String name){
         this.name = name;
         
     }
